@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+
+@layer components{
+
+    .sidebar-container{
+        @apply absolute flex flex-col w-screen h-screen items-center justify-center z-20 bg-white/90;
+    }
+    .sidebar-items {
+        @apply relative flex w-[75%] m-3 p-3 shadow-lg shadow-gray-400 bg-gray-100 rounded-full items-center justify-center hover:scale-105  ease-in duration-300;
+    }
+
+    .mainbar-container{
+        @apply md:block hidden fixed top-[25%] z-10;
+    }
+
+    .mainbar-item{
+        @apply rounded-full m-2 p-4 shadow-lg bg-gray-100 shadow-gray-400 cursor-pointer ease-in duration-300 hover:scale-110;
+    }
+    .sections{
+        @apply max-w-[1200px] mx-auto md:pl-16 p-4 py-20;
+    }
+    .section-header{
+        @apply text-4xl font-bold text-center text-[#001bb5e] text-black;
+    }
+    .form-label{
+        @apply uppercase text-sm py-2;
+    }
+}
+
