@@ -3,6 +3,9 @@ import { TypeAnimation } from 'react-type-animation';
 import { FaSquareXTwitter,FaLinkedin,FaSquareGithub } from "react-icons/fa6";
 import bgimg from "../assets/bgimg.jpg";
 export default function Main() {
+    const handleResume = ()=>{
+        window.open("https://drive.google.com/file/d/1QDyxvWeeO1xWBWENFtrCjHVPzJooz00t/view?usp=drive_link", target='_blank')
+    }
   return (
     <div id='main'>
         <img src={bgimg} className="w-full h-screen object-cover"></img>
@@ -43,10 +46,8 @@ export default function Main() {
                         <FaSquareGithub size="30"/>
                     </a>   
                 </div>
-                <button className='bg-[#001b5e] text-gray-100 mt-4 w-full p-4 rounded-lg max-w-[20%]'>
-                    <a href="https://drive.google.com/file/d/1QDyxvWeeO1xWBWENFtrCjHVPzJooz00t/view?usp=drive_link" target='_blank'>
-                        DOWNLOAD RESUME
-                    </a>
+                <button className='bg-[#001b5e] text-gray-100 mt-4 w-full py-2 rounded-lg max-w-[25%] md:text-3xl text-1xl' onClick={handleResume}>{/* <a href="https://drive.google.com/file/d/1QDyxvWeeO1xWBWENFtrCjHVPzJooz00t/view?usp=drive_link" target='_blank' className='w-full'> */}
+                        RESUME
                 </button>
             </div>
         </div>
