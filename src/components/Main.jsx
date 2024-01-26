@@ -36,9 +36,9 @@ export default function Main() {
                     take up the full available width of its parent container, 
                     while still allowing it to shrink if there is not enough space available. */}
                 <div className='flex flex-row space-x-10 pt-3 max-w-[170px] w-full'>       
-                    <a href="https://twitter.com/jesmigeorge04" target="_blank">
+                    {/* <a href="https://twitter.com/jesmigeorge04" target="_blank">
                         <FaSquareXTwitter size="30"/>
-                    </a>
+                    </a> */}
                     <a href="https://www.linkedin.com/in/jesmi-george/">
                         <FaLinkedin size="30"/>
                     </a>
