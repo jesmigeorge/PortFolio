@@ -4,7 +4,7 @@ import { FaSquareXTwitter,FaLinkedin,FaSquareGithub } from "react-icons/fa6";
 import bgimg from "../assets/bgimg.jpg";
 export default function Main() {
     const handleResume = ()=>{
-        window.open("https://drive.google.com/file/d/1GfPu7Bzz4ll-fA3ntf6fW6xb84JPyzRM/view?usp=sharing", '_blank')
+        window.open("https://drive.google.com/file/d/1Ft01Um1Om8tbTCJ-X5OsdcSztX65LMsz/view?usp=sharing", '_blank')
     }
   return (
     <div id='main'>
