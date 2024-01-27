@@ -2,9 +2,10 @@ import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import { FaSquareXTwitter,FaLinkedin,FaSquareGithub } from "react-icons/fa6";
 import bgimg from "../assets/bgimg.jpg";
+import { TbBrandLeetcode } from "react-icons/tb";
 export default function Main() {
     const handleResume = ()=>{
-        window.open("https://drive.google.com/file/d/1Ft01Um1Om8tbTCJ-X5OsdcSztX65LMsz/view?usp=sharing", '_blank')
+        window.open("https://drive.google.com/file/d/1LGadaMwkiui1SYho_tujzd64LAc51xLX/view?usp=sharing", '_blank')
     }
   return (
     <div id='main'>
@@ -36,15 +37,15 @@ export default function Main() {
                     take up the full available width of its parent container, 
                     while still allowing it to shrink if there is not enough space available. */}
                 <div className='flex flex-row space-x-10 pt-3 max-w-[170px] w-full'>       
-                    {/* <a href="https://twitter.com/jesmigeorge04" target="_blank">
-                        <FaSquareXTwitter size="30"/>
-                    </a> */}
                     <a href="https://www.linkedin.com/in/jesmi-george/">
                         <FaLinkedin size="30"/>
                     </a>
                     <a href="https://github.com/jesmigeorge">
                         <FaSquareGithub size="30"/>
-                    </a>   
+                    </a> 
+                    <a href="https://leetcode.com/jesmigeorge04/" target="_blank">
+                        <TbBrandLeetcode size="30"/>
+                    </a>  
                 </div>
                 <button className='bg-[#001b5e] text-gray-100 mt-4 w-full py-2 rounded-lg max-w-[25%] md:text-3xl text-1xl' onClick={handleResume}>{/* <a href="https://drive.google.com/file/d/1QDyxvWeeO1xWBWENFtrCjHVPzJooz00t/view?usp=drive_link" target='_blank' className='w-full'> */}
                         RESUME
