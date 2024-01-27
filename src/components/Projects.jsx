@@ -10,7 +10,7 @@ export default function Projects() {
         <div className='sections'>
             <h1 className='section-header my-9'>Projects</h1>
             <div className='grid sm:grid-cols-2 gap-12'>
-                <ProjectItem img={news} title='News App' url='/'/>
+                <ProjectItem img={news} title='News App' url='https://github.com/jesmigeorge/News-App'/>
                 <ProjectItem img={eats} title='Best Eats App' url='https://best-eats-hotel.netlify.app/'/>
                 <ProjectItem img={leetcode} title='LeetCode Recommendation' url='https://github.com/jesmigeorge/Leetcode-Recommendation' />
                 <ProjectItem img={starbucks} title='StarBucks Ui Clone' url='https://jesmigeorge.github.io/Starbucks-Clone/'/>
