@@ -5,7 +5,7 @@ import bgimg from "../assets/bgimg.jpg";
 import { TbBrandLeetcode } from "react-icons/tb";
 export default function Main() {
     const handleResume = ()=>{
-        window.open("https://drive.google.com/file/d/1_K8NfMIF03i0ellhK2_8-YARxTNDEmLG/view?usp=sharing", '_blank')
+        window.open("https://drive.google.com/file/d/1MAiL_Or-v9jMAAIHHYC-BankWKbCIhQB/view?usp=sharing", '_blank')
     }
   return (
     <div id='main'>
